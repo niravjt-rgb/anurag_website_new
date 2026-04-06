@@ -19,7 +19,7 @@ const Hero = ({ data, onContactClick }) => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="max-w-3xl">
           <div className="mb-6 animate-fade-in">
-            <p className="text-blue-400 font-semibold text-lg tracking-wide mb-2">
+            <p className="text-blue-400 font-bold text-2xl mb-3">
               Anurag Rastogi, FIAI, FIII
             </p>
             <p className="text-slate-300 font-medium text-base mb-4">
@@ -29,7 +29,7 @@ const Hero = ({ data, onContactClick }) => {
               {data.hero.headline}
             </h1>
             <p className="text-xl md:text-2xl text-slate-300 leading-relaxed">
-              {data.hero.subheadline}
+              Leveraging 37 years of actuarial and underwriting expertise to drive profitability with growth in P&C Insurance sector
             </p>
           </div>
 
@@ -53,18 +53,14 @@ const Hero = ({ data, onContactClick }) => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-6 mt-16 pt-12 border-t border-slate-700">
+          <div className="grid grid-cols-2 gap-6 mt-16 pt-12 border-t border-slate-700">
             <div className="animate-fade-in-delay-2">
               <p className="text-4xl font-bold text-blue-400">{data.yearsOfExperience}+</p>
               <p className="text-slate-400 mt-1">Years Experience</p>
             </div>
             <div className="animate-fade-in-delay-2">
               <p className="text-4xl font-bold text-blue-400">360°</p>
-              <p className="text-slate-400 mt-1">Value Chain Coverage</p>
-            </div>
-            <div className="animate-fade-in-delay-2 col-span-2 md:col-span-1">
-              <p className="text-4xl font-bold text-blue-400">VP</p>
-              <p className="text-slate-400 mt-1">Institute of Actuaries of India</p>
+              <p className="text-slate-400 mt-1">Experience Across Insurance Value Chain</p>
             </div>
           </div>
         </div>

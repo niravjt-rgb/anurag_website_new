@@ -19,7 +19,6 @@ const About = ({ data }) => {
                 <h3 className="text-2xl font-bold text-white">{data.name}</h3>
                 <p className="text-blue-300 text-lg">{data.title}</p>
                 <p className="text-slate-300">{data.subtitle}</p>
-                <p className="text-sm text-slate-400 mt-2">{data.tagline}</p>
               </div>
             </div>
           </div>

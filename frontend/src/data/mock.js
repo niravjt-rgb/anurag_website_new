@@ -19,7 +19,7 @@ export const consultantData = {
       "Led actuarial and underwriting workstreams in two M&A deals from due diligence to integration",
       "Senior Advisor to Deloitte, India, specializing in market entry strategies",
       "Vice President and Committee Chairperson at Institute of Actuaries of India",
-      "Regular speaker at insurance seminars and conferences across India"
+      "Regular speaker at insurance seminars and conferences across markets"
     ]
   },
 
@@ -27,8 +27,6 @@ export const consultantData = {
     companies: [
       "National Insurance Company Limited",
       "Bajaj General Insurance Limited (then Bajaj Allianz General Insurance Limited)",
-      "L&T General Insurance Limited",
-      "Apollo Munich Health Insurance Limited",
       "HDFC ERGO General Insurance Limited"
     ],
     roles: [
