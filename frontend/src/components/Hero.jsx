@@ -19,8 +19,11 @@ const Hero = ({ data, onContactClick }) => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="max-w-3xl">
           <div className="mb-6 animate-fade-in">
-            <p className="text-blue-400 font-semibold text-sm tracking-wide uppercase mb-2">
-              Senior Advisor to Deloitte, India
+            <p className="text-blue-400 font-semibold text-lg tracking-wide mb-2">
+              Anurag Rastogi, FIAI, FIII
+            </p>
+            <p className="text-slate-300 font-medium text-base mb-4">
+              General Insurance Consultant, Actuary
             </p>
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">
               {data.hero.headline}
@@ -60,8 +63,8 @@ const Hero = ({ data, onContactClick }) => {
               <p className="text-slate-400 mt-1">Value Chain Coverage</p>
             </div>
             <div className="animate-fade-in-delay-2 col-span-2 md:col-span-1">
-              <p className="text-4xl font-bold text-blue-400">M&A</p>
-              <p className="text-slate-400 mt-1">Expert Advisor</p>
+              <p className="text-4xl font-bold text-blue-400">IAI</p>
+              <p className="text-slate-400 mt-1">Senior Most General Insurance Actuary</p>
             </div>
           </div>
         </div>

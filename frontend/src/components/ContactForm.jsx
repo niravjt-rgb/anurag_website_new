@@ -5,7 +5,7 @@ import { Input } from './ui/input';
 import { Textarea } from './ui/textarea';
 import { Label } from './ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from './ui/select';
-import { Mail, Phone, MapPin, Send } from 'lucide-react';
+import { Mail, Send } from 'lucide-react';
 import { toast } from 'sonner';
 
 const ContactForm = ({ data, email }) => {
@@ -94,36 +94,16 @@ const ContactForm = ({ data, email }) => {
               </CardContent>
             </Card>
 
-            <Card className="border-slate-200 hover:shadow-lg transition-shadow duration-300">
-              <CardContent className="p-6">
-                <div className="flex items-start gap-4">
-                  <div className="p-3 bg-blue-100 rounded-lg">
-                    <MapPin className="h-6 w-6 text-blue-600" />
-                  </div>
-                  <div>
-                    <h4 className="font-semibold text-slate-900 mb-1">Service Areas</h4>
-                    <p className="text-slate-600">India, Gulf & Afro-Asian Countries</p>
-                  </div>
-                </div>
-              </CardContent>
-            </Card>
-
             <Card className="border-slate-200 bg-gradient-to-br from-blue-50 to-slate-50">
               <CardContent className="p-6">
-                <h4 className="font-semibold text-slate-900 mb-3">Office Hours</h4>
-                <div className="space-y-2 text-sm">
-                  <div className="flex justify-between">
-                    <span className="text-slate-600">Monday - Friday</span>
-                    <span className="text-slate-900 font-medium">9:00 AM - 6:00 PM</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-600">Saturday</span>
-                    <span className="text-slate-900 font-medium">10:00 AM - 2:00 PM</span>
-                  </div>
-                  <div className="flex justify-between">
-                    <span className="text-slate-600">Sunday</span>
-                    <span className="text-slate-900 font-medium">Closed</span>
-                  </div>
+                <h4 className="font-semibold text-slate-900 mb-3">Professional Credentials</h4>
+                <div className="space-y-2 text-sm text-slate-700">
+                  <p>• Fellow, Institute of Actuaries of India (FIAI)</p>
+                  <p>• Fellow, Insurance Institute of India (FIII)</p>
+                  <p>• Masters in Physics</p>
+                  <p className="mt-3 pt-3 border-t border-slate-200 font-medium text-blue-700">
+                    Senior Advisor to Deloitte, India
+                  </p>
                 </div>
               </CardContent>
             </Card>
