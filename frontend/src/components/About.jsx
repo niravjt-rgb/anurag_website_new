@@ -11,7 +11,7 @@ const About = ({ data }) => {
           <div className="relative">
             <div className="relative rounded-lg overflow-hidden shadow-2xl">
               <img 
-                src="https://images.unsplash.com/photo-1589114207353-1fc98a11070b"
+                src="https://customer-assets.emergentagent.com/job_page-showcase-18/artifacts/z4bud4fg_Picture1.jpg"
                 alt="Anurag Rastogi"
                 className="w-full h-[600px] object-cover"
               />
