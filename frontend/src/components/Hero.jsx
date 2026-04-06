@@ -19,10 +19,10 @@ const Hero = ({ data, onContactClick }) => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
         <div className="max-w-3xl">
           <div className="mb-6 animate-fade-in">
-            <p className="text-blue-400 font-bold text-2xl mb-3">
+            <p className="text-blue-400 font-bold text-3xl mb-3">
               Anurag Rastogi, FIAI, FIII
             </p>
-            <p className="text-slate-300 font-medium text-base mb-4">
+            <p className="text-slate-300 font-medium text-lg mb-4">
               General Insurance Consultant, Actuary
             </p>
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-4 leading-tight">

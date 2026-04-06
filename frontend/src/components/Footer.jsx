@@ -69,8 +69,6 @@ const Footer = ({ data }) => {
             <span className="hidden sm:inline">•</span>
             <span>Insurance Institute of India</span>
             <span className="hidden sm:inline">•</span>
-            <span>Deloitte, India</span>
-            <span className="hidden sm:inline">•</span>
             <span>International Actuarial Association</span>
           </div>
         </div>
