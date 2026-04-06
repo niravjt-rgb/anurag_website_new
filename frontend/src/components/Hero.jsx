@@ -63,8 +63,8 @@ const Hero = ({ data, onContactClick }) => {
               <p className="text-slate-400 mt-1">Value Chain Coverage</p>
             </div>
             <div className="animate-fade-in-delay-2 col-span-2 md:col-span-1">
-              <p className="text-4xl font-bold text-blue-400">IAI</p>
-              <p className="text-slate-400 mt-1">Senior Most General Insurance Actuary</p>
+              <p className="text-4xl font-bold text-blue-400">VP</p>
+              <p className="text-slate-400 mt-1">Institute of Actuaries of India</p>
             </div>
           </div>
         </div>
