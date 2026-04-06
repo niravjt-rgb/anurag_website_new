@@ -101,9 +101,6 @@ const ContactForm = ({ data, email }) => {
                   <p>• Fellow, Institute of Actuaries of India (FIAI)</p>
                   <p>• Fellow, Insurance Institute of India (FIII)</p>
                   <p>• Masters in Physics</p>
-                  <p className="mt-3 pt-3 border-t border-slate-200 font-medium text-blue-700">
-                    Senior Advisor to Deloitte, India
-                  </p>
                 </div>
               </CardContent>
             </Card>
