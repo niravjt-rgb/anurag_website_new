@@ -12,8 +12,7 @@ const Footer = ({ data }) => {
           <div>
             <h3 className="text-xl font-bold mb-4">{data.name}</h3>
             <p className="text-slate-400 text-sm mb-2">{data.title}</p>
-            <p className="text-slate-400 text-sm mb-4">{data.subtitle}</p>
-            <p className="text-blue-400 text-sm font-medium">{data.tagline}</p>
+            <p className="text-slate-400 text-sm">{data.subtitle}</p>
           </div>
 
           {/* Quick Links */}
