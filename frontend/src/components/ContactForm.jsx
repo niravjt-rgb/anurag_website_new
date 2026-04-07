@@ -33,27 +33,25 @@ const ContactForm = ({ data, email }) => {
     });
   };
 
-  const handleSubmit = async (e) => {
+const handleSubmit = async (e) => {
     e.preventDefault();
     setIsSubmitting(true);
-
-    // Simulate form submission (mock)
-    setTimeout(() => {
-      toast.success('Thank you for your inquiry! I will get back to you soon.', {
-        description: `Your message regarding "${formData.subject}" has been received.`
+    try {
+      const response = await fetch('https://formspree.io/f/xykbojzw', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData)
       });
-      
-      // Reset form
-      setFormData({
-        name: '',
-        email: '',
-        phone: '',
-        subject: '',
-        message: ''
-      });
-      
-      setIsSubmitting(false);
-    }, 1500);
+      if (response.ok) {
+        toast.success('Thank you! I will get back to you soon.');
+        setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
+      } else {
+        toast.error('Something went wrong. Please try again.');
+      }
+    } catch {
+      toast.error('Something went wrong. Please try again.');
+    }
+    setIsSubmitting(false);
   };
 
   return (
