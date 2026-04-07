@@ -68,7 +68,8 @@ export const consultantData = {
       items: [
         "Creating strategies for taking the tariff to market using underwriting levers, distribution levers and pricing levers",
         "Aligning strategies with profit and ROC objectives of the client",
-        "Market segmentation and product positioning analysis"
+        "Market segmentation and product positioning analysis",
+        "Underwriting systems identification and implementation"
       ]
     },
     {
@@ -78,7 +79,8 @@ export const consultantData = {
       items: [
         "Claims process review and optimization",
         "Leakage analysis and prevention strategies",
-        "Claims reserving and settlement strategy"
+        "Claims reserving and settlement strategy",
+        "Claims systems identification and implementation"
       ]
     },
     {
