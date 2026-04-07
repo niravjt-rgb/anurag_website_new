@@ -26,6 +26,7 @@ export const consultantData = {
   experience: {
     companies: [
       "National Insurance Company Limited",
+      "National Insurance Academy",
       "Bajaj General Insurance Limited (then Bajaj Allianz General Insurance Limited)",
       "HDFC ERGO General Insurance Limited"
     ],
